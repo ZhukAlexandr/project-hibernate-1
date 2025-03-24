@@ -15,7 +15,7 @@ import java.util.Optional;
 @Repository(value = "db")
 public class PlayerRepositoryDB implements IPlayerRepository {
 
-    public static final String SELECT_FROM_PLAYER_LIMIT_OFFSET = "SELECT * FROM player   LIMIT :limit OFFSET  :offset";
+    public static final String SELECT_FROM_PLAYER_LIMIT_OFFSET = "SELECT * FROM rpg.player   LIMIT :limit OFFSET  :offset";
     private final SessionFactory sessionFactory;
 
     public PlayerRepositoryDB() {
