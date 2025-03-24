@@ -13,8 +13,6 @@
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
         <property name="hbm2ddl.auto">update</property>
-        <property name="dr"></property>
-
         <mapping class="com.game.entity.Player"/>
     </session-factory>
 </hibernate-configuration>
